@@ -1,6 +1,6 @@
 # TryHackMe: Digital Footprint - OSINT Write-up
 
-## Task 1: The Leaked Photo (Geolocation & EXIF Analysis)
+## Task 1: The Leaked Photo
 
 **Objective:** Figure out where a leaked photo of a residential property—believed to be linked to ACME Jet's early operations—was taken.
 
@@ -37,7 +37,7 @@ After a few checks, the logo in the photo showed a security company from that ar
 ### Uncovering the Spoofed Location
 I did not want to stop just here; I wanted to find the exact location where the photo was taken, not just the city. 
 
-**Visual Intelligence (IMINT) & Logic:**
+**Visual Intelligence & Logic:**
 1. From the original photo, there can be seen a sign where it says "The Rectory", so there must be a priest or minister’s house.
 2. Also, in the image the road is inclined at 10-15 degrees, so the house must be in a hill area.
 3. When searching for all the Rectories in Johannesburg, none were actually good because the architecture did not match. Most of the roads did not have trees at all, and all the buildings were too big for the description. Also, where I was able to actually find some trees, they were partly in front of the fence, not behind it.
@@ -66,7 +66,7 @@ If I changed the date of the Street View to 2017/2018, the photo matched perfect
 
 ---
 
-## Task 2: Company Origins (Web Archiving)
+## Task 2: Company Origins
 
 **Objective:** Verify the true founding date of ACME Jet Solutions using only public information, despite claims that they were founded in 2025.
 **Target:** `warc-acme.com/jef/`
@@ -88,7 +88,7 @@ I searched for the provided identifier and located the raw `.warc` package. By i
 
 ---
 
-## Task 3: International Expansion (Landmark Identification)
+## Task 3: International Expansion
 
 **Objective:** Identify the building to the right of an iconic landmark in a provided image, which played a big role in the fight for independence of a particular country.
 
@@ -133,7 +133,7 @@ Now I had to look for the name of the building on the right side of the Spire. T
 
 ---
 
-## Task 4: The Internal Document (Metadata Forensics)
+## Task 4: The Internal Document
 
 **Objective:** Investigators believe that an internal document was accidentally leaked by one of the company's developers. The document may contain crucial information about the individual responsible for maintaining their systems.
 
