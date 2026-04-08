@@ -1,4 +1,4 @@
-#OSINT Repository
+## OSINT Repository
 
 This repository contains documentation for various cybersecurity challenges and investigations, with a primary focus on Open Source Intelligence (OSINT).
 
